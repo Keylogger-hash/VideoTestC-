@@ -1,0 +1,40 @@
+.tool{
+    height: calc(100vh - 60px);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow: auto;
+    overflow-x: hidden;
+}
+.tool-workarea{
+    text-align: center;
+    height: 100%;
+    padding: 24px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -ms-flex: 1 1;
+    flex: 1 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    background-color: #f3f0ec;
+}
+
+/* .upload-form{
+    text-align: center;
+    height: 100%;
+    padding: 24px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -ms-flex: 1 1;
+    flex: 1 1;
+    background-color: #f3f0ec;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+
+} */

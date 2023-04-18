@@ -1,0 +1,29 @@
+.upload-sidebar{
+    border: 1px solid black;
+    flex-basis: 300px;
+    width:300px;   
+    height: auto;
+    align-items: stretch;
+    z-index: 1500;
+    background-color: #fff;
+}
+.upload-sidebar .active{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sidebar-controls{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sidebar-button{
+    margin-top:auto;
+}
+.sidebar-button span{
+    background-color: red;
+    border-radius: 10px;
+    margin-left:auto;
+
+}

@@ -1,0 +1,7 @@
+
+.upload-sidebar-title{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-bottom: 1px solid black;
+}

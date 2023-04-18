@@ -1,0 +1,25 @@
+.error-upload-button{
+    background-color: #e5322d;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-size:28px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 28px;
+    margin-top: 12px;
+    color:#fff;
+    order:0;    
+    min-width: 200px;
+}
+.error-upload-button:hover{
+    background-color: black;
+}
+.error-upload-button span:hover{
+    background-color: black;
+}
+.error-upload-button a{
+    text-decoration: none;
+    cursor:auto;
+    color:inherit;
+
+}

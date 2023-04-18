@@ -1,0 +1,10 @@
+#error-page{
+    background-color: #F5F5FA;
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+.error-container {
+    padding:40px;
+}

@@ -1,0 +1,25 @@
+/* .container {
+  width:700px;
+  padding: auto;
+  margin: auto; 
+  border: 3px solid green;
+  text-align: center;
+} */
+.container {
+  /* overflow: hidden; */
+  /* display: flex;
+  flex-direction: column; */
+  
+}
+
+@media (max-width: 840px){
+  .main {
+    margin-top: 60px;
+  }
+}
+
+
+.main {
+    margin-top: 60px;
+    overflow: hidden;
+}
