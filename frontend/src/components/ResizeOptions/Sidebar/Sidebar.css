@@ -2,16 +2,14 @@
     border: 1px solid black;
     flex-basis: 300px;
     width:300px;   
-    height: auto;
-    align-items: stretch;
-    z-index: 1500;
-    background-color: #fff;
-}
-.upload-sidebar .active{
     display: flex;
     flex-direction: column;
-    
+    height: auto;
+    z-index: 1500;
+    background-color: #fff;
+    position:relative;
 }
+
 
 .sidebar-controls{
     display: flex;
@@ -19,11 +17,23 @@
     justify-content: space-between;
 }
 .sidebar-button{
-    margin-top:auto;
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    margin-bottom:40px;
 }
 .sidebar-button span{
-    background-color: red;
-    border-radius: 10px;
-    margin-left:auto;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5322d;
+    color:#fff;
+    padding:4px;    
+    border-radius: 12px;
+    margin-left:10px;
+    margin-right:10px;
+}
+.sidebar-button span:hover{
+    opacity:0.8;
 }

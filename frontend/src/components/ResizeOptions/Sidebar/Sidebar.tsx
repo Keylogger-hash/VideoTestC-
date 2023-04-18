@@ -12,7 +12,7 @@ export function Sidebar(){
                     Width(px)
                 </div>
                 <div>
-                    40
+                    <input min={20} max={4000} step={1} defaultValue={20} type="number"></input>
                 </div>
             </div>
             <div className='sidebar-controls'>  
@@ -20,7 +20,7 @@ export function Sidebar(){
                     Height(px)
                 </div>
                 <div>
-                    40
+                    <input min={20} max={4000} step={1} defaultValue={20} type="number"></input>
                 </div>
             </div>
             <div className='sidebar-button'>
