@@ -10,15 +10,15 @@ export function UploadFile(){
     return (
         <div className="tool">
             <div className="tool-workarea">
-                {/* <div>
+                <div>
                     <UploadTitle></UploadTitle>
                     <UploadContent></UploadContent>
                     <UploadButton></UploadButton>
                     <UploadAlt></UploadAlt>
-                </div> */}
-                <div id='resize-options' className='hidden'>
-                    <ResizeOptions></ResizeOptions>
                 </div>
+                {/* <div id='resize-options' className='hidden'>
+                    <ResizeOptions></ResizeOptions>
+                </div> */}
             </div>
         </div>
 
